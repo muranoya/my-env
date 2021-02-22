@@ -6,7 +6,7 @@ dpkg-reconfigure -phigh console-setup
 # Media
 vlc feh mpv audacious gimp fcitx-mozc pcmanfm
 # dev-tools
-clang-format gnuplot graphviz meld git git-cola cmake vim-gtk global nkf valgrind gdb automake autoconf jq lshw iotop vite
+clang-format gnuplot graphviz meld git git-cola cmake vim-gtk global nkf gdb automake autoconf jq lshw iotop vite
 # tools
 firefox chromium-browser gufw gparted okular wavemon htop imagemagick rlwrap cifs-utils iftop zstd gedit tcpdump terminator zeal formiko wireshark umview uftrace rr remake pstack mutrace leaktracer brightnessctl xbattbar
 # programming
@@ -14,4 +14,4 @@ gawk ocaml clang clisp gauche
 # libraries
 libxft-dev libxinerama-dev libwebp-dev libarchive-dev libpoppler-cpp-dev libpng-dev libjpeg9-dev libxcursor-dev
 # other
-bluetooth pulseaudio-module-bluetooth i3 i3lock i3status linux-tools-4.15.0-23-generic oxygen-icon-theme vpnc xinit xsel
+bluetooth pulseaudio-module-bluetooth i3 i3lock i3status linux-tools-4.15.0-23-generic oxygen-icon-theme vpnc xinit xsel typora
