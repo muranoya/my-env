@@ -1,8 +1,3 @@
-# Set timezone
-dpkg-reconfigure tzdata
-# Set ctrl:nocaps after changed /etc/default/keyboard
-dpkg-reconfigure -phigh console-setup
-
 # Media
 vlc feh mpv audacious gimp fcitx-mozc pcmanfm
 # dev-tools

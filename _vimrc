@@ -3,18 +3,14 @@ filetype off
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
-Plugin 'thinca/vim-quickrun'
 Plugin 'gmarik/Vundle.vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'troydm/easybuffer.vim'
 Plugin 'Shougo/vimshell'
-Plugin 'Shougo/vimproc'
 Plugin 'rust-lang/rust.vim'
 Plugin 'racer-rust/vim-racer'
-"Plugin 'jeaye/color_coded'
 Plugin 'tyru/caw.vim'
 Plugin 'vim-scripts/renamer.vim'
-Plugin 'lambdatoast/elm.vim'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'tpope/vim-fugitive'

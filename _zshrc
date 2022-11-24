@@ -11,22 +11,9 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
 fi
 
 # Customize to your needs...
-alias open="xdg-open"
-alias sbcl="rlwrap sbcl"
 alias grep="grep -n --color=auto"
-alias valgrind="valgrind --leak-check=full --show-leak-kinds=all"
-alias pdftohtml="pdftohtml -s -nomerge "
-alias gitdiff="git difftool -t meld -y"
 alias ls="ls --color"
-alias gogo="cd ~/go/src/github.com/muranoya"
-alias rhttpd="ruby -run -e httpd . -p 3000"
 
 export EDITOR=vim
-#export PS1=" \[\033[32m\]\u\[\033[0m\] \W $ "
 
-export PATH=$HOME/local/node-v9.6.1-linux-x64/bin:$HOME/local/:$HOME/local/cakeibo:$PATH
-
-. ~/.cargo/env
-
-export PATH="$HOME/local/idea-IC-191.6707.61/bin/:$HOME/go/bin:$HOME/local/bin:$HOME/.cargo/bin:$PATH"
-export PATH="$HOME/.cargo/bin:$PATH"
+setxkbmap -layout jp
